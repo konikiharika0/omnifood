@@ -1,0 +1,28 @@
+.maincontainer{
+    border:5px solid brown;
+    background-color: aqua;
+    display: flex;
+    height:100;
+    flex-wrap: wrap;
+
+}
+.subcontainer{
+   min-width:75%
+}
+.childcontainer1{
+   
+ border:4px solid greenyellow;width:75%;margin:18px;
+ padding:16px;margin-right:10px;background-color:white;text-align: center;border-h
+}
+.childcontainer2{
+    border:4px solid blue;border-radius:15px;
+    width:22%;margin:16px;padding:16px;background-color: white;display: flex;align-items:center;margin-bottom: 12px;margin-top: 25px;justify-content: center;
+}
+.container{display:flex}
+
+.container1{
+    border:3px solid orange;padding:12px;margin:12px;text-align: center;}
+.lastcontainer{
+    border:4px solid rgb(90, 18, 30);border-radius:15px;width :15%;margin-left:16px;
+    margin-bottom:16px;height:150;text-align:center;display:inline-block}
+    

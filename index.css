@@ -1,0 +1,31 @@
+.maincontainer{
+    display:flex;flex-wrap:wrap;
+}
+   
+.subcontainer{
+
+    border:5px solid lightskyblue;
+    display:flex;align-items:center;min-width:20%;padding:5px
+    margin:16px
+    }
+
+.imagecontainer{
+    display:flex;align-items:center;justify-content: center;background-color: red;
+    ;width-150px;border:20px solid greenyellow
+    }
+
+.imagecontainer img{
+  width:120px;height:150px;
+}
+.detailcontainer{
+padding-left:16px;
+}
+h3,h4{
+    padding-left:16px;
+}
+span {
+    padding-left:16px;margin-bottom:2px;
+}
+p{padding-left:16px;margin-bottom:2px;}
+button{margin-left:16px;margin-bottom;,border-radius:4px;background-color:red;border-color:transparent; color:white;margin-top:5px}
+body{display:inline-block;}

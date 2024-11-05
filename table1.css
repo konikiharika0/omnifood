@@ -1,0 +1,6 @@
+th,td {border-bottom: 3px solid seagreen;text-align: center;}
+.temp{background-color:seagreen;color: white;}
+.colo{background-color: lightgrey;color:rgb(57, 137, 92);}
+table{width:50%;border-collapse: collapse;margin:20px 0;}
+th,td{border-bottom: none;}
+.bord{border-bottom:3px seagreen;}

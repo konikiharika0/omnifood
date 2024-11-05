@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initialscale="1.0">
+    <title>flexbox</title>
+    <style>
+        .maincontainer{
+            border:4px solid transparent;
+            width:95%;
+
+        }
+        .headercontainer{border:3px solid purple;
+            background-color: rgb(244, 167, 192);
+            display:flex;
+            flex-direction: row;
+            width:95%;
+        }
+        .item1{border:1px solid transparent;
+            padding:12px;
+            margin:12px;
+            margin-left:255px;
+            margin-top:-7px;
+            margin-right:525px;
+            
+           }
+           .item2{border:1px solid transparent;
+            padding:12px;
+            margin:12px;
+            color:purple;
+            margin-top:-7px;
+            
+        }
+        .contentcontainer{border:1px solid transparent;
+            padding:12px;
+            margin:12px;
+            width:50%;
+            display:grid;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            grid-template-rows:1fr,1fr,1fr,1fr;
+            grid-template-columns: 1fr;
+            text-align: center;
+            margin-left:180px;
+
+        }
+        .item3{
+            margin-left:125px;
+        }
+        .item4{
+            margin-left:125px;
+        }
+        
+        .imagecontainer{border:1px solid transparent;
+            padding:12px;
+            margin:12px;
+            width:17%;
+            margin-left:45px; 
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows:4fr,1fr,2fr,1fr;
+            width:85%;
+            margin-left:100px;
+            
+            
+
+
+        }
+        img{
+            width: 200px;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: cyan;
+            border-radius:12px;
+            width:110px;
+            height:35px;
+        }
+        
+    </style>
+    <body>
+        <div class="maincontainer">
+        <div class="headercontainer">
+        <div class="item1"> <b>Flexbox</b><sub>Ninja</sub></div>
+        <div class="item2">Studies</div>
+        <div class="item2">Learn Flexbox</div>
+        <div class="item2">About</div>
+        
+    </div>
+   
+    <div class="contentcontainer">
+        <h2 class="item3">Flexbox Case Studies</h2>
+        <p class="item4">Flexbox is nowaday one of the problem solvers you should master to help you in<br>
+        your working daily habits,follw those specific demonstration and step by step case<br>
+        stidies to learn more about css Flexbox Layout,and become a Flexbox Ninja</p>
+    </div>
+    <div class="imagecontainer">
+        <div class="item5">
+            <img src="./shared image (2).jpg"/>
+            <h3>Holy Grail Layout</h3>
+            <p>one header one content one footer and two cols.Get rid of the hard thing which Flexbox</p>
+            <button>Flexbox Demo</button>
+        </div>
+        
+       
+        <div class="item6">
+        <img src="./shared image (1).jpg"/>
+        <h3>same columns height</h3>
+        <p>Your Designer made real as awesome work with loren ipsumbut in real life texts change lets keep a good harmony with Flexbox</p>
+        <button>Flexbox Demo</button>
+     </div>
+     <div class="item6">
+        <img src="./shared image.jpg"/>
+        <h3>website header</h3>
+        <p>A logo to the left of a navigation to the right everything centered in small screen no matters the number of nav items. Eay with Flexbox</p>
+        <button>Flexbox Demo</button>
+     </div>
+     </div>
+      
+     </div>
+    </div>
+    </body>

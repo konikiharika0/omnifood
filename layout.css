@@ -1,0 +1,57 @@
+.maincontainer{
+ 
+
+   
+}
+.subcontainer{display: flex;
+    align-items: center;
+   
+    border:5px solid red;
+    background-color: aqua;
+    margin:16px;
+    padding:16px;
+   height:200px;
+  width:30%
+}
+.imagecontainer {display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: yellow;
+    border: 4px solid rgb(102, 16, 30);
+    margin:0px;
+    padding:5px;
+}
+img{width:150px;
+    height:100px;
+
+}
+.contentcontainer{
+padding-left: 16px;}
+h3,h4{
+    margin:16px;
+    color:rgb(135, 26, 135)
+}
+p{
+    color:red;
+    margin-left: 35px;
+    margin:16px
+}
+
+span{
+   color: green;
+   margin:16px}
+
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-left: 16px;
+}
+    
+    
+
+
+
+
+

@@ -1,0 +1,165 @@
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+.header-container{
+   
+    align-items: center;
+    
+   
+    padding:1rem;
+    margin-top:20px;
+    
+    background-color: rgb(253, 238, 210);
+    
+}
+.header-image img{
+    width:12.5rem;
+    
+}
+.hero-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  margin:0 auto;
+  max-width:130rem;
+  padding:1.6rem 3.2rem;
+    gap:1rem;
+    background-color: rgb(253, 238, 210);
+}
+.hero-image{
+    width:100%;
+   }
+   
+.hero-image img{
+    width:95%;
+}
+.hero-header{font-weight:700;
+    font-size:3.8rem;
+    line-height:1.05;
+   letter-spacing:-0.75px;}
+  
+.hero-para{
+    font-size:1.4rem ;
+    font-weight:400;
+    color:rgb(63, 62, 62);
+    line-height:1.45;
+    margin-bottom:4rem;
+}
+.btn{
+    padding:1.0rem 2.0rem;
+    background-color: rgb(255, 172, 18);
+    color:white;
+    border-radius: 0.9rem;
+    
+    
+    
+}
+.btn-outline{
+    background-color: white;
+    color: black;
+    margin-left:0.9rem;
+}
+.btn:hover{
+    background-color: rgb(185, 135, 42);
+    cursor: pointer;
+    border:2px solid black;
+}
+.btn-outline:hover{
+    background-color:white;
+   cursor: pointer;
+    border:2px solid black;
+}
+.hero-happycustomers{
+    margin-top: 3.8rem;
+    display:flex;
+    justify-content: center;
+
+}
+
+
+
+.hero-happycustomers img{
+    width:30px;
+    border:1px solid white;
+    border-radius:0.9rem;
+    height:50px;
+    margin-left:-0.5rem;
+    margin-top:1.4rem;
+  
+   
+    
+    
+}
+.hero-happycustomers p{
+font-size:1.2rem;
+padding:1rem;
+font-weight: 600;
+
+}
+.section-how{padding:9.6rem o;
+
+
+
+}
+.container{
+    max-width:120rem;
+    padding:0 3.2rem;
+    margin:0 auto;
+    
+}
+.grid{
+    display:grid;
+    column-gap:4.2rem;
+   row-gap:9.6rem;
+
+}
+.grid--2--cols{grid-template-columns: repeat(2,1fr);
+
+}
+.header-primary{font-weight:700;
+        font-size:2.4rem;
+
+}
+.subheading{
+    font-size:3.6rem;
+    font-weight:600;
+    margin-top:2rem;
+    letter-spacing:-0.5px;
+    text-transform: uppercase;}
+   
+
+.step-imgbox{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.step-img{
+    width:50%;
+    align-items: center;
+   
+}
+
+   
+.step-number{
+    font-size:3.6rem;
+    font-weight:600;
+    color: rgb(78, 76, 76);
+    margin-bottom:2.4rem;
+}
+.heading-secondary{font-size:1.6rem;
+font-weight:600;
+}
+.step-description{
+    font-size:1.2rem;
+    
+    line-height:2.4rem;
+    color:rgb(73, 72, 72)
+    
+}
+
+
+
+
+

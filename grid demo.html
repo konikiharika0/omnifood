@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> using Grid Property</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+        .maincontainer {display: grid;
+            grid-template-rows: auto auto auto;
+            border:3px solid red;
+            border-radius: 10px;
+            width:80%;}
+
+        .subcontainer1 {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            text-align: center;
+
+            
+        }
+
+        .subcontainer2 {display:grid;
+            grid-template-columns: 1fr 2fr 1fr;
+           
+        }
+
+        .container1 {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            
+            
+        }
+
+        .container2 {display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+        
+        }
+
+        .container2 div {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            
+
+        }
+
+        .container3 {
+            display: grid;
+            grid-template-rows:1fr;
+        }
+
+        .container3-1 {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            
+        }
+
+        .container3-1 div {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            
+        }
+
+        .con11 {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+            
+        }
+
+        .subcontainer3 {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px; 
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+
+            
+        }
+
+        .subcontainer3 div {border:3px solid blue;
+            border-radius: 10px;
+            padding:10px;
+            margin:10px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer1">container1</div>
+
+        <div class="subcontainer2">
+            <div class="container1">container2</div>
+
+            <div class="container2">
+                <div class="con">con3</div>
+                <div class="con">con4</div>
+                <div class="con">con5</div>
+                <div class="con">con6</div>
+                <div class="con">con7</div>
+                <div class="con">con8</div>
+            </div>
+
+            <div class="container3">
+                <div class="container3-1">
+                    <div class="con">con9</div>
+                    <div class="con">con10</div>
+                </div>
+                <div class="con11">con11</div>
+            </div>
+        </div>
+
+        <div class="subcontainer3">
+            <div class="con1">con12</div>
+            <div class="con1">con13</div>
+            <div class="con1">con14</div>
+            <div class="con1">con15</div>
+        </div>
+    </div>
+
+
